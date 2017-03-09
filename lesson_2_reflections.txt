@@ -49,7 +49,15 @@ the diagram the way we do?
 	all the deletions in both branches and keeps any code kept in both 
 	branches.  It is represented by two branches merging into one node
 	because that is just logical.
-	
+
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+	
+	THe pros of auto merging is the simplicity and speed of combining multiple
+	changes from various branches of code.  This can really speed up the process
+	of combining work from mutliple branches. Git's ability to flag conflicts
+	also speeds up the process for cases where it cannot automatically
+	determine which changes to keep or discard.  The cons are that you give up
+	a bit of control in deciding what changes you may actually wish to keep and
+	discard, but the trade-off seems fair to me.
