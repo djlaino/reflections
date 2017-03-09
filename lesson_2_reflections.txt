@@ -33,7 +33,14 @@ organized? How would branches help?
 	results in a fundamental difference in how it works (like the easy
 	version of the game in this part of our lesson).
 
+
 How do the diagrams help you visualize the branch structure?
+	
+	Diagrams help you to see where a branch was created which provides a 
+	visualization of what commits exist in each branch.  This lets you
+	quickly determine whether a particular feature, bug or other 
+	attribute is present in that particular code.
+	
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
