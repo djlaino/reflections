@@ -14,10 +14,15 @@ What value do you think it offers?
 	offers is that is provides a space to collect your files for a commit
 	allowing you to alter the collection of files and get them right before
 	initializing them in the repository.
-	
+
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	
+	You can use the staging area to add files that are all related to one logical
+	change as each file is ready.  This means you don't have to wait until you
+	change all the file in order to stage them.
+	
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
