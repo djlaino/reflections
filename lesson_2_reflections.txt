@@ -40,10 +40,16 @@ How do the diagrams help you visualize the branch structure?
 	visualization of what commits exist in each branch.  This lets you
 	quickly determine whether a particular feature, bug or other 
 	attribute is present in that particular code.
-	
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	
+	Merging two branches adds all the additions in the two branches, and deletes
+	all the deletions in both branches and keeps any code kept in both 
+	branches.  It is represented by two branches merging into one node
+	because that is just logical.
+	
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
