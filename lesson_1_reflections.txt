@@ -1,0 +1,91 @@
+How did viewing a diff between two versions of a file 
+help you see the bug that was introduced?
+
+	Using diff (or FC in Windwows) made it much quicker
+	to find the differences between the two files because
+	it eliminates the need to check all the lines that 
+	have not changed.
+	I tried using FC as well as diff and diff -u.  I 
+	found diff was the quickest at pointing out the
+	error we were looking for as part of this exercise.
+	That may be because of the specifics of the files
+	being compared in this exercise.  In general, I 
+	thought the output from diff and diff -u was
+	easier to parse than the output from FC.
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I can imagine a situation where I decide to make a change with some end
+    goal in mind, but then the goal changes or things don't go as planned
+    (actually, I have already experienced situations like this in coding).
+    It is sort of like deciding to go down a road thinking it is an 
+    alternative route to your destination, and learning that it is really a
+    dead end and you need to backtrack to your wrong turn.  Having a history
+    of your turns (or coding changes) makes that easier.
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros include:
+      - limiting the number of different versions you have to store and 
+      keep track of.
+      - controlling the point at which a change is committed (e.g. only when 
+      a working, compilable version of the code is complete).
+      - being able to comment on the changes made for that version so you 
+      know what is represents.
+      - the number of versions is limited and easier to sift through
+    The cons include:
+      - you have to conscientously commit changes at the proper point in 
+      your work so you don't lose that point in the code evolution.
+      - if you don't commit your changes often enough, you may not be able
+      to revert back to the exact point you need forcing you to go further 
+      back and duplicate work to get to where you need to be.
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is designed for programming where a new version of the code will have 
+    changes spread across multiple files, and only those files will work 
+    together (i.e. you can't necessarily mix files from different versions 
+    together).
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows the commit logs.  This will help you to quickly sift through
+    all the saved versions and find where a specific change was made.  I can
+    look at the comment for a commit to figure out what the change in that
+    commit is.
+    git diff shows the specific changes between two commits, if you ask for 
+    the difference between two serail numbers for two commits.  In reading
+    the documentation for git diff, apparently it can also show the difference
+    between the working tree and the index or a tree (I don't knwo what these
+    are yet), or between and index and a tree, or two trees, or two blob (???)
+    objects.
+    Seems I have more to learn.
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Knowing I can go back to a working verion quickly and easily would make
+    me much more confident to mess with code.  I can't tell you how many
+    times I messed up code and wished I had saved an intermediate version
+    that I could go back to and restart.  I am sure I have wasted a lot of
+    my life reconstructing code I had made previously because I failed to 
+    save a version of it.  Of course, I have to be diligent in committing
+    intermediate versions of code at the right intervals.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	I'm not sure at the moment, but once I've gotten comfortable using it,
+	I am sure I will find uses for it.  Certainly I will use it in this 
+	class.  And when I become a professional code developer, I'll use it
+	regularly to plot my takeover of the universe.
+
