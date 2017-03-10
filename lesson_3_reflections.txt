@@ -40,12 +40,19 @@ stored locally?
     The benefit is beind able to work locally on the latest version of the
     remote repository to minimize differences and merges the next time you
     commit and push changes.
-    
+
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I have often collaborated on Word documents without using a repository 
+    like Git or GitHub.  When doing that, you rely on other collaborators
+    to track their changes.  If they don't it can be difficult to know what
+    changed.  If multiple people make changes to the same section, it 
+    bcomes tedious to merge them.  However, just emailing a file back and
+    forth is easier than commiting each change in Git.  That does seem a 
+    small trade-off for the benefits that Git and GitHub provide.
+    
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
