@@ -1,12 +1,22 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    A remote repository would be accessible anywhere you have internet access,
+    so you could work on your files from anywhere on the internet.  It also
+    allows you to share your work with others anywhere, and it serves to 
+    backup your work remotely which would be very useful if you lost your
+    local work to a hard drive crash or other catastrophe.
+
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    For the same reason you would only want to commit changes manually
+    (see lesson 1 reflection 3), you want to control when updates occur
+    so you can manage them.  Also, remote work may be happening as Git
+    woudl try to automatically pull changes and that could cause conflicts
+    and issues.  It is best that you are in control of pushes and pulls
+    so that conflicts and confusion are avoided.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
