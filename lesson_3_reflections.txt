@@ -52,9 +52,15 @@ and what would be harder?
     bcomes tedious to merge them.  However, just emailing a file back and
     forth is easier than commiting each change in Git.  That does seem a 
     small trade-off for the benefits that Git and GitHub provide.
-    
+
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    It seems that making changes on a different branch can help to keep track
+    of the change when collaborating with others, and you are not sure that 
+    the change will be useful, work, or be acceptable.  Using a different
+    branch will alow you to share the change with your collaborators and have
+    them review it before merging it back to the master.  If the change in 
+    the new branch is abandoned for some reason, you could then just delete
+    the branch and revert to the old master and start again.
